@@ -39,7 +39,6 @@ async function getData(){
         loadMore.addEventListener('click' , () => {
             for (const user of infoAboutUsers) {
                 i++;
-    // дублировать код это очень плохо :(
                 if (i <= users.total) {
                     const avatar = user.avatar;
                     const firstName = user.first_name;
